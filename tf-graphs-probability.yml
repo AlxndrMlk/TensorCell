@@ -1,0 +1,23 @@
+name: tf-graphs-probability
+channels:
+- defaults
+- conda-forge
+dependencies:
+- nb_conda
+- matplotlib
+- nltk
+- pandas
+- xlrd
+- scikit-learn
+- matplotlib
+- seaborn
+- tqdm
+- graphviz
+- pydot
+- pip
+- pip:
+  - tensorflow
+  - tensorflow-probability
+  - spektral
+  - optuna 
+  - mlflow
